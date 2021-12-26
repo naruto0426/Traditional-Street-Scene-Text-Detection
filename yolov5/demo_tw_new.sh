@@ -1,0 +1,1 @@
+python3 detect.py --source ../../Downloads/ai_data/train/img/img_2000.jpg --weights runs/train/exp34/weights/best.pt --img 1280 --conf-thres 0.25 --iou-thres 0.45 --device 'cuda:0' --view-img  #--augment
